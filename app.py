@@ -43,6 +43,7 @@ WPI_data['Date'] = pd.to_datetime(WPI_data['Date'])
 WPI_data.set_index('Date', inplace=True)
 
 # Streamlit UI
+st.image("png_2.3-removebg-preview.png", width=400)  # Replace "your_logo.png" with the path to your logo
 st.title("Stock-WPI Correlation Analysis with Expected Inflation, Price Prediction, and Sentiment Analysis")
 
 # User input for uploading Excel file with stocks name column
